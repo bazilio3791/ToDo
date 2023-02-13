@@ -76,7 +76,7 @@ input[type="text"] {
   background: transparent;
   font-size: 20px;
   font-weight: 200;
-  width: 313px;
+  width: 80%;
 }
 
 input[type="text"]:focus {
