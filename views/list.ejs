@@ -1,12 +1,12 @@
 <%- include("header") -%>
 
-  <div class="box" id="heading">
+  <div class="box bg-transparent" id="heading">
     <h1>
       <%= listTitle %>
     </h1>
   </div>
 
-  <div class="box bg-transparent">
+  <div class="box ">
     <% newListItems.forEach(function(item) { %>
 
       <form action="/delete" method="post">
