@@ -91,7 +91,9 @@ app.post("/", function (req, res) {
   const item = new Item({
     name: addedItem
   });
-
+  if (req.originalUrl === '/favicon.ico') {
+    return;
+  }
   if (listName === 'Today') {
     // console.log(listName + ' Not exist');
     item.save();
